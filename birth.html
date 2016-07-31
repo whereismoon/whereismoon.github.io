@@ -25,7 +25,7 @@
     <style>
     .spinning-circle {
   animation-name: spinning-circle;
-  animation-duration: 5s;
+  animation-duration: 500ms;
   animation-iteration-count: infinite;
 }
 
@@ -33,14 +33,14 @@
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    -webkit-transform-origin: 125% 125%;
-    transform-origin: 125% 125%;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
   }
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    -webkit-transform-origin: 125% 125%;
-    transform-origin: 125% 125%;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
   }
 }
     </style>
@@ -48,7 +48,7 @@
   <body>
     <h1>Birthday</h1>
     <div class="moon">
-      <img src="/important-space.jpg" class="img-responsive center-block spinning-circle">
+      <img src="/important-space.png" class="img-responsive center-block spinning-circle">
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
